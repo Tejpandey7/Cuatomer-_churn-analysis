@@ -7,67 +7,68 @@ The customer churn is when a customer stops using a company's products or servic
 Python 3
 VS code and Jupyter Notebook
 6. Required Python libraries:
-Pandas
-Numpy
-Matplotlib
-seaborn
-7. Installation can be done by using pip.
-pip install pandas, numpy, matplotlib,seaborn
-8. Usage 
+Pandas\
+Numpy\
+Matplotlib\
+seaborn\
+7. Installation can be done by using pip.\
+pip install pandas, numpy, matplotlib,seaborn\
+8. Usage\
 clone this repository to the local machine
 git clone https://github.com/Tejpandey7/Cuatomer-_churn-analysis
 2 Prepare Your Environment:
 Install the required libraries (Pandas,Numpy,Matplotlib,seaborn).
 
-Open the project in VScode  or Jupyter Notebook.
-9.  Load and Explore the Data
-Load the dataset from the  folder using pandas.
+Open the project in VScode  or Jupyter Notebook.\
+9.  Load and Explore the Data\
+Load the dataset from the  folder using pandas.\
 
-Conduct  EDA to visualize data  distributions, check for missing values, and understand correlations.
-Use visualizations such as histograms, bar charts, and piechart etc.
-10. Data Cleaning and Preprocessing
-Handle missing oandr inconsistent data.
-Convert categorical variables to numerical if needed
-11 Feature Engineering:
-Create a features if helpful (e.g., tenure groups, etc)
-12 Insights and Recommendations:
-Identify the top factors contributing to customer churn.
-Suggest possible business strategies to reduce churn based
-Data Dictionary:
--customerID: Unique identifier for each customer.
--gender: Gender of the customer (Male, Female).
--SeniorCitizen: Whether the customer is a senior citizen or not (1: Yes, 0: No).
--Partner: Whether the customer has a partner or not (Yes, No).
--Dependents: Whether the customer has dependents or not (Yes, No).
--tenure: Number of months the customer has stayed with the company.
--PhoneService: Whether the customer has a phone service or not (Yes, No).
--MultipleLines: Whether the customer has multiple lines or not (Yes, No, No phone service).
--InternetService: Type of internet service the customer has (DSL, Fiber optic, No).
--OnlineSecurity: Whether the customer has online security or not (Yes, No, No internet service).
--OnlineBackup: Whether the customer has online backup or not (Yes, No, No internet service).
--DeviceProtection: Whether the customer has device protection or not (Yes, No, No internet service).
--TechSupport: Whether the customer has tech support or not (Yes, No, No internet service).
--StreamingTV: Whether the customer has streaming TV or not (Yes, No, No internet service).
--StreamingMovies: Whether the customer has streaming movies or not (Yes, No, No internet service).
--Contract: The contract term of the customer (Month-to-month, One year, Two year).
--PaperlessBilling: Whether the customer has paperless billing or not (Yes, No).
--PaymentMethod: The payment method of the customer (Electronic check, Mailed check, Bank transfer, Credit card).
--MonthlyCharges: The amount charged to the customer monthly.
--TotalCharges: The total amount charged to the customer.
+Conduct  EDA to visualize data  distributions, check for missing values, and understand correlations.\
+Use visualizations such as histograms, bar charts, and piechart etc.\
+10. Data Cleaning and Preprocessing\
+Handle missing oandr inconsistent data.\
+Convert categorical variables to numerical if needed\
+11 Feature Engineering:\
+Create a features if helpful (e.g., tenure groups, etc)\
+12 Insights and Recommendations:\
+Identify the top factors contributing to customer churn.\
+Suggest possible business strategies to reduce churn based\
+Data Dictionary:\
+-customerID: Unique identifier for each customer.\
+-gender: Gender of the customer (Male, Female).\
+-SeniorCitizen: Whether the customer is a senior citizen or not (1: Yes, 0: No).\
+-Partner: Whether the customer has a partner or not (Yes, No).\
+-Dependents: Whether the customer has dependents or not (Yes, No).\
+-tenure: Number of months the customer has stayed with the company.\
+-PhoneService: Whether the customer has a phone service or not (Yes, No).\
+-MultipleLines: Whether the customer has multiple lines or not (Yes, No, No phone service).\
+-InternetService: Type of internet service the customer has (DSL, Fiber optic, No).\
+-OnlineSecurity: Whether the customer has online security or not (Yes, No, No internet service).\
+-OnlineBackup: Whether the customer has online backup or not (Yes, No, No internet service).\
+-DeviceProtection: Whether the customer has device protection or not (Yes, No, No internet service).\
+-TechSupport: Whether the customer has tech support or not (Yes, No, No internet service).\
+-StreamingTV: Whether the customer has streaming TV or not (Yes, No, No internet service).\
+-StreamingMovies: Whether the customer has streaming movies or not (Yes, No, No internet service).\
+-Contract: The contract term of the customer (Month-to-month, One year, Two year).\
+-PaperlessBilling: Whether the customer has paperless billing or not (Yes, No).\
+-PaymentMethod: The payment method of the customer (Electronic check, Mailed check, Bank transfer, Credit card).\
+-MonthlyCharges: The amount charged to the customer monthly.\
+-TotalCharges: The total amount charged to the customer.\
 -Churn: Whether the customer churned or not (Yes, No).\
 
-Data Summary: There are two datasets
-Sources: Kaggle
-First data records: rows = 7043 and column = 21
-Second data records: rows = 5880 and column = 21
+Data Summary: There are two datasets\
+Sources: Kaggle\
+First data records: rows = 7043 and column = 21\
+Second data records: rows = 5880 and column = 21\
 
-13  References:
-Customer Churn Dataset from  Kaggle
-sources : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+13  References:\
+Customer Churn Dataset from  Kaggle\
+sources : https://www.kaggle.com/datasets/blastchar/telco-customer-churn\
 https://www.kaggle.com/datasets/rashadrmammadov/customer-churn-dataset\
-Pandas documentation
-Python documentation
-Matplotlib documentaton
-Seaborn Documentation
-Google
+Pandas documentation\
+Python documentation\
+Matplotlib documentaton\
+Seaborn Documentation\
+Google\
 Chatgpt
+
