@@ -7,33 +7,33 @@ The customer churn is when a customer stops using a company's products or servic
 
 
  4.__Project Setup:__ 
- Data Analysis with VS Code & Jupyter Notebook
-  a.Prerequisites
- b. Python 3
- c. Visual Studio Code
- d. Git 
- e. Internet connection to install dependencies
-3. Clone or download the project
+ Data Analysis with VS Code & Jupyter Notebook\
+  a.Prerequisites\
+ b. Python 3\
+ c. Visual Studio Code\
+ d. Git \
+ e. Internet connection to install dependencies\
+3. Clone or download the project\
 
-git clone https://github.com/Tejpandey7/Cuatomer-_churn-analysis
-cd your-repo-name
-5. Create a virtual environment
- Open PowerShell, git bash VS or  Code terminal and run:
- python -m venv venv
-6. Activate the virtual environment
- .\venv\Scripts\activate
-You’ll see (venv) in your terminal.
-7. Install required packages
-pip install -r requirements.txt
-8. If requirements.txt is missing or empty, you can install basic packages manually
-pip install pandas matplotlib seaborn jupyter
-9.  Launch Jupyter Notebook in VS Code
- Open the project folder in VS Code
- Make sure the Python extension is installed
- Open churn_analysis.ipynb
- In the top-right corner, select the kernel as Python (venv)
+git clone https://github.com/Tejpandey7/Cuatomer-_churn-analysis\
+cd your-repo-name\
+5. Create a virtual environment\
+ Open PowerShell, git bash VS or  Code terminal and run:\
+ python -m venv venv\
+6. Activate the virtual environment\
+ .\venv\Scripts\activate\
+You’ll see (venv) in your terminal.\
+7. Install required packages\
+pip install -r requirements.txt\
+8. If requirements.txt is missing or empty, you can install basic packages manually\
+pip install pandas matplotlib seaborn jupyter\
+9.  Launch Jupyter Notebook in VS Code\
+ Open the project folder in VS Code\
+ Make sure the Python extension is installed\
+ Open churn_analysis.ipynb\
+ In the top-right corner, select the kernel as Python (venv)\
 
-Run the notebook cells to explore the data
+Run the notebook cells to explore the data\
 
 Open the project in VScode  or Jupyter Notebook.\
 10.  Load and Explore the Data\
