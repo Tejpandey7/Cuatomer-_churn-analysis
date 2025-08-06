@@ -6,31 +6,37 @@ The customer churn is when a customer stops using a company's products or servic
  The main goal of the project is to analyze customer behavior and identify the main factor why and which type of customer are leaving the business or service. By deeply studying the data, my aim to discover patterns asnd trends that help us to understand which type of customer are more likely to churn and what kind of factors influence them to leave the service. This project is focused on data analysis using charts and basic stastistics to find meaningful insights which help the business to create better strategies to improve customer retention.
 
 
- 5. __Installation__
- To run this project, you need to have the following installed on your machine:
-Python 3
-VS code and Jupyter Notebook
+ 4.__Project Setup:__ 
+ Data Analysis with VS Code & Jupyter Notebook
+  a.Prerequisites
+ b. Python 3
+ c. Visual Studio Code
+ d. Git 
+ e. Internet connection to install dependencies
+3. Clone or download the project
 
-
-6. __Required Python libraries:__
-Pandas\
-Numpy\
-Matplotlib\
-seaborn\
-7. Installation can be done by using pip.\
-
-
-pip install pandas, numpy, matplotlib,seaborn\
-8. Usage\
-
-
-clone this repository to the local machine
 git clone https://github.com/Tejpandey7/Cuatomer-_churn-analysis
-2 Prepare Your Environment:
-Install the required libraries (Pandas,Numpy,Matplotlib,seaborn).
+cd your-repo-name
+5. Create a virtual environment
+ Open PowerShell, git bash VS or  Code terminal and run:
+ python -m venv venv
+6. Activate the virtual environment
+ .\venv\Scripts\activate
+You’ll see (venv) in your terminal.
+7. Install required packages
+pip install -r requirements.txt
+8. If requirements.txt is missing or empty, you can install basic packages manually
+pip install pandas matplotlib seaborn jupyter
+9.  Launch Jupyter Notebook in VS Code
+ Open the project folder in VS Code
+ Make sure the Python extension is installed
+ Open churn_analysis.ipynb
+ In the top-right corner, select the kernel as Python (venv)
+
+Run the notebook cells to explore the data
 
 Open the project in VScode  or Jupyter Notebook.\
-9.  Load and Explore the Data\
+10.  Load and Explore the Data\
 
 
 Load the dataset from the  folder using pandas.\
@@ -39,21 +45,21 @@ Conduct  EDA to visualize data  distributions, check for missing values, and und
 Use visualizations such as histograms, bar charts, and piechart etc.\
 
 
-10. Data Cleaning and Preprocessing\
+11. Data Cleaning and Preprocessing\
 Handle missing oandr inconsistent data.\
 Convert categorical variables to numerical if needed\
 
 
-11.  Feature Engineering:\
+12.  Feature Engineering:\
 Create a features if helpful (e.g., tenure groups, etc)\
 
 
-12.  Insights and Recommendations:\
+13.  Insights and Recommendations:\
 Identify the top factors contributing to customer churn.\
 Suggest possible business strategies to reduce churn based\
 
 
-13. Data Dictionary:\
+14. Data Dictionary:\
 -customerID: Unique identifier for each customer.\
 -gender: Gender of the customer (Male, Female).\
 -SeniorCitizen: Whether the customer is a senior citizen or not (1: Yes, 0: No).\
@@ -82,7 +88,7 @@ First data records: rows = 7043 and column = 21\
 Second data records: rows = 5880 and column = 21\
 
 
-13.  References:\
+15.  References:\
 Customer Churn Dataset from  Kaggle\
 sources : https://www.kaggle.com/datasets/blastchar/telco-customer-churn\
 https://www.kaggle.com/datasets/rashadrmammadov/customer-churn-dataset\
@@ -93,4 +99,3 @@ Seaborn Documentation\
 Google\
 Chatgpt\
 git.
-
