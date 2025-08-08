@@ -5,61 +5,7 @@ The customer churn is when a customer stops using a company's products or servic
  2. __Goal of the project:__
  The main goal of the project is to analyze customer behavior and identify the main factor why and which type of customer are leaving the business or service. By deeply studying the data, my aim to discover patterns asnd trends that help us to understand which type of customer are more likely to churn and what kind of factors influence them to leave the service. This project is focused on data analysis using charts and basic stastistics to find meaningful insights which help the business to create better strategies to improve customer retention.
 
-
- 4.__Project Setup:__ 
- Data Analysis with VS Code & Jupyter Notebook\
-  a.Prerequisites\
- b. Python 3\
- c. Visual Studio Code\
- d. Git \
- e. Internet connection to install dependencies\
-3. Clone or download the project\
-
-git clone https://github.com/Tejpandey7/Cuatomer-_churn-analysis\
-cd your-repo-name\
-5. Create a virtual environment\
- Open PowerShell, git bash VS or  Code terminal and run:\
- python -m venv venv\
-6. Activate the virtual environment\
- .\venv\Scripts\activate\
-You’ll see (venv) in your terminal.\
-7. Install required packages\
-pip install -r requirements.txt\
-8. If requirements.txt is missing or empty, you can install basic packages manually\
-pip install pandas matplotlib seaborn jupyter\
-9.  Launch Jupyter Notebook in VS Code\
- Open the project folder in VS Code\
- Make sure the Python extension is installed\
- Open churn_analysis.ipynb\
- In the top-right corner, select the kernel as Python (venv)\
-
-Run the notebook cells to explore the data\
-
-Open the project in VScode  or Jupyter Notebook.\
-10.  Load and Explore the Data\
-
-
-Load the dataset from the  folder using pandas.\
-
-Conduct  EDA to visualize data  distributions, check for missing values, and understand correlations.\
-Use visualizations such as histograms, bar charts, and piechart etc.\
-
-
-11. Data Cleaning and Preprocessing\
-Handle missing oandr inconsistent data.\
-Convert categorical variables to numerical if needed\
-
-
-12.  Feature Engineering:\
-Create a features if helpful (e.g., tenure groups, etc)\
-
-
-13.  Insights and Recommendations:\
-Identify the top factors contributing to customer churn.\
-Suggest possible business strategies to reduce churn based\
-
-
-14. Data Dictionary:\
+ 3. Data Dictionary:\
 -customerID: Unique identifier for each customer.\
 -gender: Gender of the customer (Male, Female).\
 -SeniorCitizen: Whether the customer is a senior citizen or not (1: Yes, 0: No).\
@@ -80,22 +26,92 @@ Suggest possible business strategies to reduce churn based\
 -PaymentMethod: The payment method of the customer (Electronic check, Mailed check, Bank transfer, Credit card).\
 -MonthlyCharges: The amount charged to the customer monthly.\
 -TotalCharges: The total amount charged to the customer.\
--Churn: Whether the customer churned or not (Yes, No).\
+-Churn: Whether the customer churned or not (Yes, No).
 
-Data Summary: There are two datasets\
-Sources: Kaggle\
-First data records: rows = 7043 and column = 21\
-Second data records: rows = 5880 and column = 21\
-
-
-15.  References:\
+4. __Data Sources:__
 Customer Churn Dataset from  Kaggle\
 sources : https://www.kaggle.com/datasets/blastchar/telco-customer-churn\
 https://www.kaggle.com/datasets/rashadrmammadov/customer-churn-dataset\
+
+5.__Data Summary:__ There are two datasets\
+First data records: rows = 7043 and column = 21\
+Second data records: rows = 5880 and column = 21
+
+
+
+ 6.__Project Setup:__ 
+ Data Analysis with VS Code & Jupyter Notebook\
+  a.Prerequisites\
+ b. Python 3\
+ c. Visual Studio Code\
+ d. Git \
+ e. Internet connection to install dependencies\
+3. Clone or download the project
+
+git clone https://github.com/Tejpandey7/Cuatomer-_churn-analysis\
+cd your-repo-name\
+5. Create a virtual environment\
+ Open PowerShell, git bash VS or  Code terminal and run:\
+  __For windows__\
+ python -m venv venv\
+6. Activate the virtual environment\
+ .\venv\Scripts\activate\
+ __For macOS/Linux__\
+ python3 -m venv venv\
+source venv/bin/activate\
+You’ll see (venv) in your terminal.\
+7. Install required packages\
+pip install -r requirements.txt\
+8. If requirements.txt is missing or empty, you can install basic packages manually\
+pip install pandas matplotlib seaborn jupyter\
+9.  Launch Jupyter Notebook in VS Code\
+ Open the project folder in VS Code\
+ Make sure the Python extension is installed\
+ Open churn_analysis.ipynb\
+ In the top-right corner, select the kernel as Python (venv)\
+Run the notebook cells to explore the data\
+Open the project in VScode  or Jupyter Notebook.\
+10.  Load and Explore the Data
+
+
+__Load the dataset from the  folder using pandas.__
+
+Conduct  EDA to visualize data  distributions, check for missing values, and understand correlations.\
+Use visualizations such as histograms, bar charts, and piechart etc.
+
+
+11. Data Cleaning and Preprocessing
+
+Handle missing oandr inconsistent data.\
+Convert categorical variables to numerical if needed
+
+
+12.  Feature Engineering:\
+Create a features if helpful (e.g., tenure groups, etc)
+
+ 14. __Key Findings__\
+Overall churn rate is approximately 36.9%, indicating a significant customer loss.\
+Customers with shorter tenure are more likely to churn.\
+Month-to-month contracts have the highest churn rate.\
+Users with electronic check payment method are more likely to churn.\
+Senior citizens and customers with tech support unavailable are at higher risk of churning.
+
+
+13.  Insights and Recommendations:\
+Identify the top factors contributing to customer churn.\
+Offer incentives  to new customers in their early tenure.\
+Promote long-term contracts by offering discounts or added benefits.\
+Improve customer support and reduce service issues.\
+Investigate ways to transition customers away from electronic check payments.
+
+
+
+15.  References:\
 Pandas documentation\
 Python documentation\
 Matplotlib documentaton\
 Seaborn Documentation\
 Google\
 Chatgpt\
-git.
+git\
+Kaggle
